@@ -1,4 +1,4 @@
-const covid_api_url = 'https://api.covid19api.com/'
+const covid_api_url = 'https://cors-everywhere.herokuapp.com/https://api.covid19api.com/'
 
 async function fetchRequest(url){
     const response = await fetch(url)

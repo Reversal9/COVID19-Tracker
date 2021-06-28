@@ -129,7 +129,7 @@ async function initMap() {
 	//values = values.sort((a, b) => a - b);
 
 	var map = L.map('map').setView([0, 0], 3);
-	L.tileLayer('https://api.maptiler.com/maps/basic/{z}/{x}/{y}.png?key=9Nvo0KiD7dG0zZ8NTVtl', {
+	L.tileLayer('https://cors-everywhere.herokuapp.com/https://api.maptiler.com/maps/basic/{z}/{x}/{y}.png?key=9Nvo0KiD7dG0zZ8NTVtl', {
 		tileSize: 512,
 		zoomOffset: -1,
 		minZoom: 2,
