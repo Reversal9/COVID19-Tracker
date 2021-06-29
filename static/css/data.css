@@ -71,7 +71,7 @@ body{
 
 .selected::after{
     content: "";
-    background: url('/res/arrow-down.svg');
+    background: url('../../res/arrow-down.svg');
     background-size: contain;
     background-repeat: no-repeat;
 
