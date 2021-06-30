@@ -2,9 +2,11 @@ const covid_api_url = 'https://cors-everywhere.herokuapp.com/https://api.covid19
 
 async function fetchRequest(url){
     const response = await fetch(url)
-
-
-    return response.json()
+    if ( response.ok ) {
+        return response.json()
+    } else {
+        window.location.href = "../../404.html"
+    }
 }
 
 const api_links = {

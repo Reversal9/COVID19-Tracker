@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./static/css/nav_foot.css" />
+  <link rel="stylesheet" href="./static/css/404.css" />
+  <title>Error</title>
+  <script src="https://kit.fontawesome.com/c38544a419.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="./res/logo.svg" alt="logo" />
+    <nav>
+      <ul class="nav_links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="map.html">Map</a></li>
+        <li id="edge_link"><a href="data.html">Data</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="main_content">
+    <div class="list">
+      <div class="item" id="item_1">
+        <img class="wlogo" src="./res/wifi-off.svg" alt="logo" />
+        <h1>Sorry!</h1> 
+        <br> 
+        <h2>The API that our website uses is currently offline. <br> Please try again later.</h2>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <h3>About Covid-19 Tracker</h3>
+      <br />
+      <p>
+        Click the icon below to view the github repository:
+      </p>
+      <a href="https://github.com/Reversal9/COVID19-Tracker" target="_blank"><i id="github-link"
+          class="fa fa-github"></i></a>
+    </div>
+    <div class="footer-bottom">
+      <p>Designed by: <span>Chuyan Wang, Jonnen Chong</span></p>
+      <p id="footer-bottom-text">Source: <span><a id="footer-link" target="_blank"
+            href="https://documenter.getpostman.com/view/10808728/SzS8rjbc">Coronavirus COVID19 API</a></span></p>
+    </div>
+  </footer>
+
+  <script>
+    var typed = new Typed(".animate", {
+      strings: [
+        "Coronavirus",
+        "confirmed cases",
+        "recovered cases",
+        "deaths",
+        "data trends",
+      ],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop: true,
+    });
+  </script>
+</body>
+
+</html>
